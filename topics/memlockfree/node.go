@@ -10,7 +10,7 @@ import (
 	"github.com/VolantMQ/vlapi/vlsubscriber"
 	"github.com/VolantMQ/vlapi/vltypes"
 
-	topicsTypes "github.com/VolantMQ/volantmq/topics/types"
+	topicsTypes "github.com/argylelabcoat/volantmq/topics/types"
 )
 
 type topicSubscriber struct {

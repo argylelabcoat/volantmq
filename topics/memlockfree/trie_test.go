@@ -8,9 +8,9 @@ import (
 	"github.com/VolantMQ/vlapi/vltypes"
 	"github.com/stretchr/testify/require"
 
-	"github.com/VolantMQ/volantmq/metrics"
-	"github.com/VolantMQ/volantmq/subscriber"
-	topicstypes "github.com/VolantMQ/volantmq/topics/types"
+	"github.com/argylelabcoat/volantmq/metrics"
+	"github.com/argylelabcoat/volantmq/subscriber"
+	topicstypes "github.com/argylelabcoat/volantmq/topics/types"
 )
 
 const (

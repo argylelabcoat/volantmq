@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 type one int

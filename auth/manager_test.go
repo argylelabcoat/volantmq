@@ -8,7 +8,7 @@ import (
 	"github.com/VolantMQ/vlapi/vlauth"
 	"github.com/stretchr/testify/require"
 
-	"github.com/VolantMQ/volantmq/auth"
+	"github.com/argylelabcoat/volantmq/auth"
 )
 
 type testAuth struct {

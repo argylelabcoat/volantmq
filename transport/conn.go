@@ -5,8 +5,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/VolantMQ/volantmq/auth"
-	"github.com/VolantMQ/volantmq/metrics"
+	"github.com/argylelabcoat/volantmq/auth"
+	"github.com/argylelabcoat/volantmq/metrics"
 )
 
 // Conn is wrapper to net.Conn

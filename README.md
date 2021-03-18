@@ -19,10 +19,10 @@ VolantMQ is a high performance MQTT broker that aims to be fully compliant with 
   - [x] Properties
   - [x] Publish expire
   - [x] Session expire
-  - [ ] [Shared topics](https://github.com/VolantMQ/volantmq/issues/149)
+  - [ ] [Shared topics](https://github.com/argylelabcoat/volantmq/issues/149)
   - [x] Subscription id
   - [x] Subscription options
-  - [ ] [Enhanced authentication](https://github.com/VolantMQ/volantmq/issues/150)
+  - [ ] [Enhanced authentication](https://github.com/argylelabcoat/volantmq/issues/150)
   - [x] Topic alias
   - [x] Server disconnect
   - [x] Flow control
@@ -212,7 +212,7 @@ Internal to system users can omit entire auth and TLS
 
 ## Distribution
 - [x] [Docker](https://hub.docker.com/repository/docker/volantmq/volantmq) image contains prebuilt plugins listed in this [section][#Plugins] 
-- [ ] [Helm](https://github.com/VolantMQ/volantmq/issues/147)
+- [ ] [Helm](https://github.com/argylelabcoat/volantmq/issues/147)
 
 ###How to use
 ```bash
@@ -220,7 +220,7 @@ docker run --rm -p 1883:1883 -p 8080:8080 -v $(pwd)/examples/config.yaml:/etc/vo
 --env VOLANTMQ_CONFIG=/etc/volantmq/config.yaml volantmq/volantmq
 ```
 
-### [Contributing guidelines](https://github.com/volantmq/volantmq/blob/master/CONTRIBUTING.md)
+### [Contributing guidelines](https://github.com/argylelabcoat/volantmq/blob/master/CONTRIBUTING.md)
 
 ### Credits
 This project is heavily inspired by [surgemq](https://github.com/zentures/surgemq). As it was unmaintained it was forked to here, redesigned and packed with features since then

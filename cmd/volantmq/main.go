@@ -23,11 +23,11 @@ import (
 	persistenceMem "gitlab.com/VolantMQ/vlplugin/persistence/mem"
 	"go.uber.org/zap"
 
-	"github.com/VolantMQ/volantmq/auth"
-	"github.com/VolantMQ/volantmq/configuration"
-	"github.com/VolantMQ/volantmq/metrics"
-	"github.com/VolantMQ/volantmq/server"
-	"github.com/VolantMQ/volantmq/transport"
+	"github.com/argylelabcoat/volantmq/auth"
+	"github.com/argylelabcoat/volantmq/configuration"
+	"github.com/argylelabcoat/volantmq/metrics"
+	"github.com/argylelabcoat/volantmq/server"
+	"github.com/argylelabcoat/volantmq/transport"
 )
 
 type pluginType map[string]vlplugin.Plugin

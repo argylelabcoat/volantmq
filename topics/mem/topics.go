@@ -24,9 +24,9 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/VolantMQ/volantmq/configuration"
-	"github.com/VolantMQ/volantmq/metrics"
-	topicstypes "github.com/VolantMQ/volantmq/topics/types"
+	"github.com/argylelabcoat/volantmq/configuration"
+	"github.com/argylelabcoat/volantmq/metrics"
+	topicstypes "github.com/argylelabcoat/volantmq/topics/types"
 )
 
 const (

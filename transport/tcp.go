@@ -7,10 +7,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/VolantMQ/volantmq/metrics"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/metrics"
+	"github.com/argylelabcoat/volantmq/types"
 
-	"github.com/VolantMQ/volantmq/configuration"
+	"github.com/argylelabcoat/volantmq/configuration"
 )
 
 // ConfigTCP configuration of tcp transport

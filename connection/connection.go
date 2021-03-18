@@ -30,10 +30,10 @@ import (
 	"github.com/VolantMQ/vlapi/vlpersistence"
 	"go.uber.org/zap"
 
-	"github.com/VolantMQ/volantmq/configuration"
-	"github.com/VolantMQ/volantmq/metrics"
-	"github.com/VolantMQ/volantmq/transport"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/configuration"
+	"github.com/argylelabcoat/volantmq/metrics"
+	"github.com/argylelabcoat/volantmq/transport"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 var (

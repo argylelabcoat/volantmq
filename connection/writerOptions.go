@@ -5,8 +5,8 @@ import (
 	"github.com/VolantMQ/vlapi/vlpersistence"
 	"go.uber.org/zap"
 
-	"github.com/VolantMQ/volantmq/metrics"
-	"github.com/VolantMQ/volantmq/transport"
+	"github.com/argylelabcoat/volantmq/metrics"
+	"github.com/argylelabcoat/volantmq/transport"
 )
 
 func (s *writer) setOptions(opts ...writerOption) error {
