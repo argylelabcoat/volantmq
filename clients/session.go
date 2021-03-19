@@ -10,9 +10,9 @@ import (
 	"github.com/VolantMQ/vlapi/vlsubscriber"
 	"go.uber.org/zap"
 
-	"github.com/VolantMQ/volantmq/configuration"
-	"github.com/VolantMQ/volantmq/connection"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/configuration"
+	"github.com/argylelabcoat/volantmq/connection"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 type sessionEvents interface {

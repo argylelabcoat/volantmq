@@ -18,8 +18,8 @@ ENV PATH $VOLANTMQ_WORK_DIR/bin:$PATH
 
 # build server
 RUN \
-       GO111MODULE=off go get -v github.com/VolantMQ/volantmq/cmd/volantmq \
-    && cd $GOPATH/src/github.com/VolantMQ/volantmq/cmd/volantmq \
+       GO111MODULE=off go get -v github.com/argylelabcoat/volantmq/cmd/volantmq \
+    && cd $GOPATH/src/github.com/argylelabcoat/volantmq/cmd/volantmq \
     && GO111MODULE=on go mod tidy \
     && go get github.com/ahmetb/govvv \
     && govvv build $VOLANTMQ_BUILD_FLAGS -o $VOLANTMQ_WORK_DIR/bin/volantmq

@@ -23,10 +23,10 @@ import (
 	"github.com/VolantMQ/vlapi/vlsubscriber"
 	"go.uber.org/zap"
 
-	"github.com/VolantMQ/volantmq/configuration"
-	"github.com/VolantMQ/volantmq/systree"
-	topicsTypes "github.com/VolantMQ/volantmq/topics/types"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/configuration"
+	"github.com/argylelabcoat/volantmq/systree"
+	topicsTypes "github.com/argylelabcoat/volantmq/topics/types"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 type provider struct {

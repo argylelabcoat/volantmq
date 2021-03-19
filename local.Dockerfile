@@ -17,11 +17,11 @@ RUN mkdir -p $VOLANTMQ_PLUGINS_DIR
 # Create environment directory
 ENV PATH $VOLANTMQ_WORK_DIR/bin:$PATH
 
-COPY . $GOPATH/src/github.com/VolantMQ/volantmq
+COPY . $GOPATH/src/github.com/argylelabcoat/volantmq
 
 # build server
 RUN \
-       cd $GOPATH/src/github.com/VolantMQ/volantmq/cmd/volantmq \
+       cd $GOPATH/src/github.com/argylelabcoat/volantmq/cmd/volantmq \
     && go build $VOLANTMQ_BUILD_FLAGS -o $VOLANTMQ_WORK_DIR/bin/volantmq
 
 # build debug plugins

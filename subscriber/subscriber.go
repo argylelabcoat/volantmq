@@ -9,8 +9,8 @@ import (
 	"github.com/VolantMQ/vlapi/mqttp"
 	"github.com/VolantMQ/vlapi/vlsubscriber"
 
-	"github.com/VolantMQ/volantmq/configuration"
-	topicsTypes "github.com/VolantMQ/volantmq/topics/types"
+	"github.com/argylelabcoat/volantmq/configuration"
+	topicsTypes "github.com/argylelabcoat/volantmq/topics/types"
 )
 
 // Config subscriber config options

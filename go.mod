@@ -1,4 +1,4 @@
-module github.com/VolantMQ/volantmq
+module github.com/argylelabcoat/volantmq
 
 go 1.13
 

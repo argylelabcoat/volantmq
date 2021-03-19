@@ -20,14 +20,14 @@ import (
 	"github.com/VolantMQ/vlapi/vlsubscriber"
 	"go.uber.org/zap"
 
-	"github.com/VolantMQ/volantmq/auth"
-	"github.com/VolantMQ/volantmq/configuration"
-	"github.com/VolantMQ/volantmq/connection"
-	"github.com/VolantMQ/volantmq/subscriber"
-	"github.com/VolantMQ/volantmq/systree"
-	topicsTypes "github.com/VolantMQ/volantmq/topics/types"
-	"github.com/VolantMQ/volantmq/transport"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/auth"
+	"github.com/argylelabcoat/volantmq/configuration"
+	"github.com/argylelabcoat/volantmq/connection"
+	"github.com/argylelabcoat/volantmq/subscriber"
+	"github.com/argylelabcoat/volantmq/systree"
+	topicsTypes "github.com/argylelabcoat/volantmq/topics/types"
+	"github.com/argylelabcoat/volantmq/transport"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 // load sessions owning subscriptions

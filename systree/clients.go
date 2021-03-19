@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/VolantMQ/vlapi/mqttp"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 // ClientConnectStatus is argument to client connected state

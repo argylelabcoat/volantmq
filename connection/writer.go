@@ -13,9 +13,9 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/VolantMQ/volantmq/systree"
-	"github.com/VolantMQ/volantmq/transport"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/systree"
+	"github.com/argylelabcoat/volantmq/transport"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 const maxPacketCount = 0xFFFF

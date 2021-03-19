@@ -7,7 +7,7 @@ import (
 	"github.com/VolantMQ/vlapi/mqttp"
 	"github.com/VolantMQ/vlapi/vlsubscriber"
 
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 const (

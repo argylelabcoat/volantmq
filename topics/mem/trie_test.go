@@ -7,10 +7,10 @@ import (
 	"github.com/VolantMQ/vlapi/vlsubscriber"
 	"github.com/stretchr/testify/require"
 
-	"github.com/VolantMQ/volantmq/subscriber"
-	"github.com/VolantMQ/volantmq/systree"
-	topicsTypes "github.com/VolantMQ/volantmq/topics/types"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/subscriber"
+	"github.com/argylelabcoat/volantmq/systree"
+	topicsTypes "github.com/argylelabcoat/volantmq/topics/types"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 var sysTree systree.Provider

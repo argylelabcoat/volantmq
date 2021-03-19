@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 
 	"github.com/VolantMQ/vlapi/mqttp"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 // SessionCreatedStatus report when session status once created

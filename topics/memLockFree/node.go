@@ -8,9 +8,9 @@ import (
 	"github.com/VolantMQ/vlapi/mqttp"
 	"github.com/VolantMQ/vlapi/vlsubscriber"
 
-	"github.com/VolantMQ/volantmq/systree"
-	topicsTypes "github.com/VolantMQ/volantmq/topics/types"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/systree"
+	topicsTypes "github.com/argylelabcoat/volantmq/topics/types"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 type topicSubscriber struct {

@@ -13,13 +13,13 @@ import (
 	"github.com/troian/healthcheck"
 	"go.uber.org/zap"
 
-	"github.com/VolantMQ/volantmq/clients"
-	"github.com/VolantMQ/volantmq/configuration"
-	"github.com/VolantMQ/volantmq/systree"
-	"github.com/VolantMQ/volantmq/topics"
-	topicsTypes "github.com/VolantMQ/volantmq/topics/types"
-	"github.com/VolantMQ/volantmq/transport"
-	"github.com/VolantMQ/volantmq/types"
+	"github.com/argylelabcoat/volantmq/clients"
+	"github.com/argylelabcoat/volantmq/configuration"
+	"github.com/argylelabcoat/volantmq/systree"
+	"github.com/argylelabcoat/volantmq/topics"
+	topicsTypes "github.com/argylelabcoat/volantmq/topics/types"
+	"github.com/argylelabcoat/volantmq/transport"
+	"github.com/argylelabcoat/volantmq/types"
 )
 
 var (
